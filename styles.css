@@ -1,1 +1,63 @@
+.container1{
+    width: 60%;   
+    margin: 0 auto;
+}
+.container1_dic{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+#result{
+margin: 5% 2% 2% 2%;
+}
 
+.result_layout{
+width: 10em;
+height: 15em;
+padding: 10px;
+background-color:lightgray;
+margin: 0 auto;
+position: relative;
+}
+.del_down{
+position: absolute;
+bottom: 0;
+right: 0;
+top: 1;
+}
+.img1{
+height: 5rem;
+}
+.history_btn .btn{
+background-color: black;
+padding: 3px 10px;
+font-size: 20px;
+}
+.history_btn .btn a{
+color: white;
+text-decoration: none;
+}
+.search_div{
+width: 30%;   
+margin: 0 auto;
+}
+.search_icon{
+height: 3vh;
+cursor: pointer;
+padding-left: 10px;
+}
+.del_img{
+height: 5vh;
+position: absolute;
+bottom: 0;
+right: 0;
+top: 1;
+}
+#data-container{
+display: flex;
+}
+#input{
+border-radius: 10px 10px 10px 10px;
+padding: 6px;
+overflow: hidden;
+}

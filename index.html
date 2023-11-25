@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dictionary Search page</title>
+</head>
+<body>
+    <div>
+        <div class="container1">
+            <div>
+                <h1>My Dictionary</h1>
+            </div>
+            <div class="container1_dic">
+                <div style="display: flex;">
+                    <div>
+                        <span><img class="img1" src="./images1.png" /></span>
+                    </div>
+                    <div>
+                        <h2>My Dictionary App</h2>
+                    </div>
+                </div>
+                <div class="history_btn">
+                    <button style="background-color: black; padding: 10px 15px;">
+                        <a href="history.html" style="color: white; text-decoration: none;">History</a></button>    
+                </div>
+            </div>
+            <div class="search_div">
+                <div>
+                    <h2>Search for new word</h2>
+                </div>
+                <div>
+                    <input type="text" id="input" />
+                    <img class="search_icon" onclick="inputWord()" src="./search_icon.png" />
+                </div>
+                <div id="result">
 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="App.js"></script>
+</html>
